@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TESTS" parallel="none">
+    <test name="User">
+        <classes>
+            <class name="com.atqc.backend.RegistrationsEndpointTests"/>
+            <class name="com.atqc.backend.CompaniesEndpointTests"/>
+            <class name="com.atqc.backend.DividendsEndpointTests"/>
+            <class name="com.atqc.backend.LogoEndpointTests"/>
+        </classes>
+    </test>
+</suite>
